@@ -1,0 +1,8 @@
+#root {
+  margin: 0 auto;
+  background-color: #2A2922;
+}
+
+.main-with-fixed-header {
+  padding-top: 68px;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+  xmlns="http://www.w3.org/2000/svg"
+  width="100%" 
+  height="100%" 
+  viewBox="0 0 1600 800" 
+  role="img" 
+  aria-label="Karina Koliada logo"
+  preserveAspectRatio="xMidYMid meet"
+>
+
+  <title>Karina Koliada — cursive logo</title>
+  <desc>Both words in cursive, fill color #F3EBDD, transparent background.</desc>
+
+  <style>
+    .name {
+      font-family: "Great Vibes", "Pacifico", "Brush Script MT", "Lucida Handwriting", cursive;
+      fill: #F3EBDD;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+  </style>
+
+  <!-- First line -->
+  <text 
+    class="name" 
+    x="50%" 
+    y="38%" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    font-size="150"
+  >
+    Karina
+  </text>
+
+  <!-- Second line -->
+  <text 
+    class="name" 
+    x="50%" 
+    y="62%" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    font-size="180"
+  >
+    Koliada
+  </text>
+
+</svg>

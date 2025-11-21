@@ -1,0 +1,168 @@
+
+.title {
+  font-weight: 900;
+  font-size: 35px;
+  color: $color-text;
+  margin: 0;
+
+  @include respond-to(tablet) {
+    font-size: 45px;
+  }
+
+  @include respond-to(desktop) {
+    font-size: 65px;
+  }
+}
+
+.intro {
+  color: $color-light;
+  font-size: 14px;
+
+    @include respond-to(tablet) {
+    font-size: 15px;
+  }
+
+  @include respond-to(desktop) {
+    font-size: 18px;
+  }
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.intro_section {
+  margin-bottom: 3rem;
+}
+
+.section {
+  margin-bottom: 1rem;
+  border: 1px solid $color-border;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #7d6542;
+  }
+}
+
+.section_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+
+  h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+
+.arrow {
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+  transform: rotate(180deg);
+  width: auto;
+  height: auto;
+
+  &.open {
+    transform: rotate(360deg);
+  }
+}
+
+.section_content {
+  padding: 0 1.5rem 1.5rem;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skills_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+}
+
+.skill_tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: 1px solid $color-border;
+
+  &:hover {
+    color: $color-hover;
+  }
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+
+    &::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #7d6542;
+    }
+  }
+}
+
+.experience_item,
+.education_item {
+  margin-bottom: 1.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin: 0 0 0.5rem 0;
+    color: $color-light;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: $color-light;
+    line-height: 1.5;
+    font-weight: 200;
+  }
+}
+
+.languages_list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+}

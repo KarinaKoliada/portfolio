@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 280" 
+  role="img" 
+  aria-label="Karina Koliada logo"
+  preserveAspectRatio="xMidYMid meet"
+>
+  <title>Karina Koliada</title>
+  <desc>Modern cursive logo</desc>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Allura&amp;display=swap');
+      
+      .name {
+        font-family: "Allura", cursive;
+        fill: #F3EBDD;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+
+  <!-- First line: Karina -->
+  <text 
+    class="name" 
+    x="50%" 
+    y="35%" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    font-size="95"
+  >
+    Karina
+  </text>
+
+  <!-- Second line: Koliada -->
+  <text 
+    class="name" 
+    x="50%" 
+    y="72%" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    font-size="115"
+  >
+    Koliada
+  </text>
+</svg>
