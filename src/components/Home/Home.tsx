@@ -1,4 +1,3 @@
-// Home.tsx
 import { useLang } from "components/Contexts/LangContext";
 import Me from "assets/karina.png";
 import Stars from "assets/stars.png";

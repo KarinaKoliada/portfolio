@@ -1,4 +1,3 @@
-// Projects.tsx
 import { useLang } from "components/Contexts/LangContext";
 import styles from "./Projects.module.scss";
 

@@ -1,7 +1,9 @@
-// Projects.module.scss
 .container {
   margin: 0 auto;
-  padding: 20px 90px;
+  padding: 20px 40px;
+  @include respond-to(tablet) {
+    padding: 20px 90px;
+  }
 }
 
 .header {
@@ -80,7 +82,7 @@
 .view_button {
   padding: 1rem 2rem;
   background: white;
-  color: #7D6542;
+  color: #7d6542;
   text-decoration: none;
   border-radius: 30px;
   font-weight: 600;
@@ -144,7 +146,7 @@
   transition: all 0.2s ease;
 
   &:hover {
-    background: #7D6542;
+    background: #7d6542;
     color: white;
     transform: translateY(-2px);
   }
@@ -168,8 +170,6 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
-
 
   .project_content {
     padding: 1.5rem;
