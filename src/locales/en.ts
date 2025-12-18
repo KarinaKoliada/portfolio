@@ -50,6 +50,11 @@ export default {
     experienceTitle: "Work Experience",
     experiences: [
       {
+        role: "Fronted Developer (2023 – present, Independent Projects)",
+        description:
+          "Built 4 web projects with React and Next.js (product catalog, company website, landing pages), implemented routing, dynamic pages, and responsive layouts, used JavaScript (ES6+), APIs, Git/GitHub, and Vercel deployment, developed small apps (to-do lists, forms, UI components)",
+      },
+      {
         role: "Customer Success Coordinator (Dec 2022 – Jun 2024, Driveroo & ROO.ai)",
         description:
           "Analyzed customer needs, managed subscriptions, handled communication, and resolved issues efficiently. Worked with Jira, Stripe, Monday.com, Google Sheets, Excel.",
@@ -74,7 +79,7 @@ export default {
           "Frontend Development (JavaScript, React, HTML, SCSS, Tailwind CSS)",
       },
 
-            {
+      {
         school: "Odesa I.I. Mechnikov National University (2017 – 2021)",
         description: "Faculty of English Philology",
       },

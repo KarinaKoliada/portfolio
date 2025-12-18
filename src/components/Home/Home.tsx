@@ -6,8 +6,12 @@ import Circle from "assets/circle.svg";
 import Strokes from "assets/strokes.svg";
 
 const Home = () => {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
+  const cvLink = lang === "de"
+    ? "/Koliada_lebenslauf.pdf"
+    : "/Koliada_CV.pdf";
+  
   return (
     <div className={styles.hero}>
       <div className={styles.content}>
@@ -17,7 +21,7 @@ const Home = () => {
         <p className={styles.description}>{t("hero.subtitle")}</p>
 
         <a
-          href="/Lebenslauf.pdf"
+          href={cvLink}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.button}

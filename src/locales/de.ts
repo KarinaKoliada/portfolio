@@ -50,6 +50,10 @@ export default {
     experienceTitle: "Berufserfahrung",
     experiences: [
       {
+        role: "Frontend Developer (2023 – laufend, Unabhängige Projekte)",
+      description: "Entwicklung von 4 Webprojekten mit React und Next.js (Produktkatalog, Unternehmenswebsite, Landingpages), Implementierung von Routing, dynamischen Seiten und responsiven Layouts, Einsatz von JavaScript (ES6+), API-Integration, Git/GitHub sowie Deployment über Vercel, Entwicklung kleiner Anwendungen (To-do-Listen, Formulare, UI-Komponenten)."
+    },
+      {
         role: "Customer Success Coordinator (Dez 2022 – Jun 2024, Driveroo & ROO.ai)",
         description:
           "Analyse von Kundenbedürfnissen, Verwaltung von Abonnements, Kommunikation mit Kunden und effiziente Problemlösung. Arbeit mit Jira, Stripe, Monday.com, Google Sheets und Excel.",
