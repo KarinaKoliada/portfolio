@@ -7,6 +7,8 @@
   flex-direction: column;
   text-align: left;
   gap: 80px;
+        height: 100vh;
+
 
   @include respond-to(tablet) {
     flex-direction: row;

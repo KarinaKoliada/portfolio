@@ -64,18 +64,19 @@ export default {
     educationTitle: "Ausbildung",
     education: [
       {
-        school: "Odesa I.I. Mechnikov Nationaluniversität (2017 – 2021)",
-        description: "Fachbereich Englische Philologie",
+        school: "Selbstständiges Lernen",
+        description:
+          "Kontinuierliche Weiterbildung in modernen Webtechnologien und praktischen Projekten",
       },
       {
         school: "Mate Academy (2023 – aktuell)",
         description:
           "Frontend Development (JavaScript, React, HTML, SCSS, Tailwind CSS)",
       },
-      {
-        school: "Selbstständiges Lernen",
-        description:
-          "Kontinuierliche Weiterbildung in modernen Webtechnologien und praktischen Projekten",
+
+            {
+        school: "Odesa I.I. Mechnikov Nationaluniversität (2017 – 2021)",
+        description: "Fachbereich Englische Philologie",
       },
     ],
 

@@ -64,18 +64,19 @@ export default {
     educationTitle: "Education",
     education: [
       {
-        school: "Odesa I.I. Mechnikov National University (2017 – 2021)",
-        description: "Faculty of English Philology",
+        school: "Self-directed learning",
+        description:
+          "Continuous improvement through modern web technologies and practical projects",
       },
       {
         school: "Mate Academy (2023 – ongoing)",
         description:
           "Frontend Development (JavaScript, React, HTML, SCSS, Tailwind CSS)",
       },
-      {
-        school: "Self-directed learning",
-        description:
-          "Continuous improvement through modern web technologies and practical projects",
+
+            {
+        school: "Odesa I.I. Mechnikov National University (2017 – 2021)",
+        description: "Faculty of English Philology",
       },
     ],
 
