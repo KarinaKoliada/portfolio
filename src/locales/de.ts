@@ -125,7 +125,7 @@ export default {
           "Flexbox",
           "Responsive Design",
         ],
-        link: "https://karinakoliada.github.io/layout_landing-page/#about-us",
+        link: "https://karinakoliada.github.io/layout_landing-page/",
         image: "/web/landing.png",
       },
       {
